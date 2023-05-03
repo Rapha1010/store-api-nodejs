@@ -4,6 +4,7 @@ const routerClient = require('./routes/routerClient')
 const routerAPI = require('./routes/routerAPI')
 
 const app = express()
+require('dotenv').config()
 
 app.use(morgan("tiny"))
 // app.use('/public', routerClient)
